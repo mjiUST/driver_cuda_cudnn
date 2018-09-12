@@ -5,7 +5,7 @@ instruction for the installation of the Nvidia driver + cuda + cudnn
       * `sudo add-apt-repository ppa:graphics-drivers/ppa`
       * `sudo apt-get update`
       * `sudo apt-get install nvidia-375`
-  - cuda download web: https://developer.nvidia.com/cuda-downloads 
+  - cuda download web: https://developer.nvidia.com/cuda-toolkit-archive 
       * .deb:
           - `sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb  # or *-deb file`
           - `sudo apt-key add /var/cuda-repo-<version/Table>/7fa2af80.pub`
